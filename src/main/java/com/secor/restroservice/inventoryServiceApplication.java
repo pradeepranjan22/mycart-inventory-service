@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestroServiceApplication {
+public class inventoryServiceApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(RestroServiceApplication.class, args);
+        SpringApplication.run(inventoryServiceApplication.class, args);
 
     }
 

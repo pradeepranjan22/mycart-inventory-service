@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.secor</groupId>
-    <artifactId>restro-service</artifactId>
+    <artifactId>mycart-inventory-service</artifactId>
     <version>prod-1</version>
-    <name>restro-service</name>
-    <description>restro-service</description>
+    <name>mycart-inventory-service</name>
+    <description>mycart-inventory-service</description>
     <url/>
     <licenses>
         <license/>
@@ -44,10 +44,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
+     <!--   <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
